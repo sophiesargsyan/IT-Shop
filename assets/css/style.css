@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+
+.price-card {
+    height: 180px;
+}
+
+.list-group-item > .badge {
+    line-height: inherit;
+}
+
+nav .pagination {
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+
+.price-table img {
+    width: 300px;
+    height: auto;
+}
+
+.header-icon > .fa  {
+    width:40px;
+    height:40px;
+    padding: 14px;
+}
+
+.select-header {
+    width: 55px;
+}
+
+.form-parent{
+    position: relative;
+}
+
+.form-signin {
+    position: absolute;
+    left: 37%;
+    bottom: 50%;
+}
+
+.product-view-link {
+    color: black;
+}
+
+.badge-property {
+    color: white;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    footer h5 {
+        font-size: 1rem;
+    }
+
+    .header-button {
+        height: 40px;
+    }
+
+    .header-nav {
+        display: block;
+    }
+
+    .first-part-header {
+        justify-content: space-between;
+    }
+
+    .search-header {
+        margin-top: 10px;
+    }
+
+    .form-signin {
+        width: 100% !important;
+        position: static;
+    }
+}
