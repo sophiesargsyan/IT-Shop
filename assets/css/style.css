@@ -49,9 +49,28 @@ nav .pagination {
     color: black;
 }
 
+.product-view-link:hover {
+    color: black;
+}
+
 .badge-property {
     color: white;
 }
+
+.header-button:hover {
+    color: #6c757d;;
+    background-color: #fff;
+    border-color: #ffc107;
+}
+
+.header-button {
+    box-shadow: none !important;
+}
+
+.header-button::after {
+    box-shadow:#ffc107 !important;
+}
+
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
     footer h5 {
