@@ -75,6 +75,26 @@ nav .pagination {
     box-shadow:#ffc107 !important;
 }
 
+.best-seller {
+    border-radius: 0;
+    position: absolute;
+    width: 85px;
+}
+
+.best-seller::after {
+    content: "";
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 10px solid transparent;
+    border-top: 18px solid #ffc107;
+    top: 0;
+    right:-10px;
+}
+
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
     footer h5 {
